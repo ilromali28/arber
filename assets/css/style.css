@@ -7,6 +7,8 @@
 }
 
 * {
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
     transition: 0.3s ease;
 }
 
@@ -82,6 +84,8 @@ p {
 
 .breadcrumbs {
     line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -204,8 +208,11 @@ p {
     mix-blend-mode: color;
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -225,6 +232,8 @@ p {
     position: absolute;
     /*left: 30px;*/
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -240,6 +249,8 @@ p {
 }
 
 .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -252,10 +263,14 @@ p {
     border: 1px solid var(--primary-color);
     padding: 13px 31px;
     white-space: pre;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     border-radius: 4px;
     margin-right: 12px;
     height: 48px;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
     transition: 0.3s ease;
 }
 
@@ -319,6 +334,7 @@ p {
     left: calc(50% + 70px);
     top: 0;
     max-width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -326,6 +342,7 @@ p {
 .politics__content-wrapper:nth-child(2) .politics__image,
 .politics__content-wrapper:last-child .politics__image {
     max-width: 100%;
+    -o-object-fit: contain;
     object-fit: contain;
 }
 
@@ -418,9 +435,17 @@ p {
 }
 
 .bmodel__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
 }
 
@@ -434,6 +459,7 @@ p {
 
 .bmodel__image {
     max-width: 443px;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -490,7 +516,11 @@ p {
 
 .values__content-wrapper,
 .politics__content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -527,6 +557,7 @@ p {
 
 .values__content-wrapper:last-child .values__image {
     margin-right: 245px;
+    -o-object-fit: contain;
     object-fit: contain;
 }
 
@@ -583,13 +614,21 @@ p {
 }
 
 .politics__content-wrapper:nth-child(n+2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .politics__content {
     max-width: 880px;
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
     max-height: max-content;
 }
 
@@ -600,8 +639,13 @@ p {
 }
 
 .politics__content-wrapper:nth-child(n+2) .politics__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -638,13 +682,22 @@ p {
 }
 
 .objective__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .objective__images {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     max-width: 828px;
 }
@@ -655,6 +708,7 @@ p {
 }
 
 .objective__image {
+    -o-object-fit: contain;
     object-fit: contain;
 }
 
@@ -687,6 +741,8 @@ p {
 }
 
 .slider {
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
     max-width: 1644px;
     position: relative;
@@ -699,6 +755,7 @@ p {
 .slider__image {
     height: 100%;
     width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -707,13 +764,24 @@ p {
     right: -35px;
     top: 0;
     bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .slick-dots li {
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
     line-height: 0;
     margin-bottom: 18px;
@@ -728,6 +796,8 @@ p {
     height: 12px;
     width: 12px;
     background-color: #B5B4B9;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
     transition: 0.3s ease;
     border-radius: 50%;
 }
@@ -751,12 +821,15 @@ p {
 }
 
 .cooperation_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .cooperation__image {
     position: absolute;
     max-width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
     top: 0;
     right: calc(50% + 217px);
@@ -789,11 +862,16 @@ p {
 }
 
 .footer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .footer__logo {
+    -ms-flex-item-align: start;
     align-self: flex-start;
     margin-left: -2px;
 }
@@ -841,8 +919,14 @@ p {
     width: 24px;
     height: 24px;
     margin-right: 20px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     line-height: 24px;
 }
@@ -864,11 +948,17 @@ p {
     margin-bottom: 108px;
     background-color: var(--secondary-color);
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .applications__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
 }
@@ -887,6 +977,7 @@ p {
 }
 
 .application__link:hover .application__image {
+    -webkit-box-shadow: 0 0 8px 0px var(--background-color);
     box-shadow: 0 0 8px 0px var(--background-color);
 }
 
