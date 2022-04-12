@@ -189,7 +189,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    background-image: url(assets/img/missionBG.jpg);
+    background-image: url(../../assets/img/missionBG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -404,7 +404,7 @@ p {
     content: "";
     width: 7px;
     height: 7px;
-    background-image: url(assets/img/listDot.svg);
+    background-image: url(../../assets/img/listDot.svg);
     background-size: cover;
     display: inline-block;
     margin: 2px 12px;
@@ -546,7 +546,7 @@ p {
 }
 
 .title_ordered1::before {
-    background-image: url(assets/img/listItem1.svg);
+    background-image: url(../../assets/img/listItem1.svg);
     height: 88px;
     width: 38px;
     left: -99px;
@@ -554,7 +554,7 @@ p {
 }
 
 .title_ordered2::before {
-    background-image: url(assets/img/listItem2.svg);
+    background-image: url(../../assets/img/listItem2.svg);
     height: 88px;
     width: 64px;
     left: -125px;
@@ -562,7 +562,7 @@ p {
 }
 
 .title_ordered3::before {
-    background-image: url(assets/img/listItem3.svg);
+    background-image: url(../../assets/img/listItem3.svg);
     height: 103px;
     width: 76px;
     left: -137px;
